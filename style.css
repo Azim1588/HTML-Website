@@ -438,40 +438,42 @@ services section start
 
  /* iphone Responsive */
 
- @media (mxa-width: 528px) {
+@media (max-width: 528px) {
     #home .header-content h1 {
-        font-size: 35px;
-
-    }
-    #home .header-content p span, #home .header-content .title {
-        font-size: 16px;
-
+        font-size: 30px;
     }
 
-    #home .header-content img {
+    #home .header-content p span,
+    #home .header-content .title {
+        font-size: 12px;
+    }
+
+    #home .header-content p {
         margin-top: 2rem;
     }
 
-         #about h2,
-         #skills h2,
-         #services h2,
-         #portfolio h2,
-         #contact h2{
-            font-size: 30px;
-         }
+    header .header-content img {
+        margin-top: 1rem;
+    }
 
-         #about .about-content .col-1 h3 {
-            font-size: 20px;
-         }
+    #about h2,
+    #skills h2,
+    #portfolio h2,
+    #cantact h2 {
+        font-size: 30px;
 
-                 #skills .skills-content .row,
-                 #services .row,
-                 #portfolio .row {
-                     grid-template-columns: repeat( 1fr);
-        
-                 }
-                 #contact .row {
-                    padding: 2rem 1rem;
-                 }
-    
- }
+    }
+
+    #about .about-content .col-1 h3 {
+        font-size: 20px;
+    }
+
+    #skills .skills-content .row,
+    #services .row,
+    #portfolio .row {
+        grid-template-columns: 1fr;
+    }
+
+
+
+}
